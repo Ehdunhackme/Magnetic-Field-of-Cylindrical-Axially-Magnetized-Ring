@@ -22,6 +22,7 @@ n_theta = 100
 
 ## Discretization Error
 ![Screenshot_1106](https://github.com/user-attachments/assets/29a51628-150f-4781-bbb0-a24ae7e6c59d)
+(This thing run for 2 hours+, will improve it soon)
 
 ## Acknowledgement
 Inspired by Luyu-wu project :)))
