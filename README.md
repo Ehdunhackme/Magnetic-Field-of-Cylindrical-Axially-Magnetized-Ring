@@ -3,6 +3,10 @@
 
 This project simulates and visualizes the magnetic field produced by a cylindrical magnetic ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field and includes both vector field visualization and a field strength heatmap. This is an early beta version of the simulation. As such, the code might contain errors or inaccuracies. Feedback and contributions are welcome to improve its accuracy and functionality. 
 
+\[ 
+\mathbf{dB} = \frac{\mu_0}{4\pi} \frac{\mathbf{dI} \times \mathbf{r}}{|\mathbf{r}|^3} 
+\]
+
 ## Methodology
 
 The magnetic field is computed using a brute-force approach, iterating over a grid of points and summing the contributions from differential current elements on the ring. This method provides a straightforward but computationally intensive way to calculate the magnetic field.
