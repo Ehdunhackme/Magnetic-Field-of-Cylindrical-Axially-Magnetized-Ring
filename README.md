@@ -21,4 +21,4 @@ n_theta = 100
 ![Figure_2](https://github.com/user-attachments/assets/e1824c56-e181-4dfa-9645-5f4d7fb8345a)
 
 ## Acknowledgement
-Inspired by Luyu-wu project.
+Inspired by Luyu-wu project :)))
