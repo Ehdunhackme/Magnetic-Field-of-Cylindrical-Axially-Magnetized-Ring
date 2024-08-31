@@ -20,5 +20,8 @@ n_theta = 100
 ## Computational Time Benchmark
 ![Figure_2](https://github.com/user-attachments/assets/e1824c56-e181-4dfa-9645-5f4d7fb8345a)
 
+## Discretization Error
+![Figure_3](https://github.com/user-attachments/assets/f6618888-3624-4b70-a20e-4367d03f504d)
+
 ## Acknowledgement
 Inspired by Luyu-wu project :)))
