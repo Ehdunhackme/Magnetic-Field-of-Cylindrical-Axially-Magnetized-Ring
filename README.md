@@ -1,5 +1,5 @@
 # Magnetic Field of Cylindrical Magnetic Ring
-This project simulates and visualizes the magnetic field produced by a cylindrical magnetic ring in the x-y plane using Python. The simulation employs the Biot-Savart law and includes vector field visualization as well as a field strength heatmap. This is an early beta version of the simulation. As such, the code might contain errors or inaccuracies. Feedback and contributions are welcome to improve its accuracy and functionality. 
+This project simulates and visualizes the magnetic field produced by a cylindrical magnetic ring in the x-y plane. The simulation employs the Biot-Savart law and includes vector field visualization as well as a field strength heatmap. This is an early beta version of the simulation. As such, the code might contain errors or inaccuracies. Feedback and contributions are welcome to improve its accuracy and functionality. 
 
 ## Changable Parameters 
 ```
