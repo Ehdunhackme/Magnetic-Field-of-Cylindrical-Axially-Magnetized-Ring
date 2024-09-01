@@ -39,7 +39,8 @@ n_theta = 100
 
 
 ## Computational Time Benchmark
-![Figure_2](https://github.com/user-attachments/assets/e1824c56-e181-4dfa-9645-5f4d7fb8345a)
+![image](https://github.com/user-attachments/assets/a8ee7d75-2c74-40c0-ac6e-efbf1cd256cf)
+(This thing run till out of memory, will improve it soon)
 
 ## Discretization Error
 (This thing run for 2 hours+, will improve it soon)
