@@ -12,7 +12,7 @@ Biot-Savart law:
 Final Time Complexity: 
 
 ```math
-\text{Time Complexity} = O\left(n_x \times n_y \times n_{rings} \times n_{\theta}\right)
+\text{Time Complexity} = O\left(n_x \times n_y \times n_{rings} \times n_{theta}\right)
 ```
 
 ## Methodology
