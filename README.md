@@ -28,7 +28,8 @@ n_theta = 100
 
 ## Vector Field Visualization
 ![Figure_1](https://github.com/user-attachments/assets/5874ded3-4669-4733-9a7f-8561535f91be)
-![lol](https://github.com/user-attachments/assets/9b61191b-cee1-4daf-bc1c-e25d0de7d086)
+![image](https://github.com/user-attachments/assets/0a11f7a5-8307-42b3-8389-e0ad4e9e411a)
+
 
 
 ## Computational Time Benchmark
