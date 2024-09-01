@@ -22,14 +22,17 @@ The magnetic field is computed using a brute-force approach, iterating over a gr
 ## Changable Parameters 
 ```
 # The higher the value, the longer the computational time
+M = 1.0  # Magnetization (assumed uniform along z-axis)
+R1 = 0.5  # Inner radius of the ring
+R2 = 2  # Outer radius of the ring
+h = 0.1   # Height of the ring
 n_rings = 100
 n_theta = 100
 ```
 
 ## Vector Field Visualization
 ![Figure_1](https://github.com/user-attachments/assets/5874ded3-4669-4733-9a7f-8561535f91be)
-![image](https://github.com/user-attachments/assets/0a11f7a5-8307-42b3-8389-e0ad4e9e411a)
-
+![Figure_11](https://github.com/user-attachments/assets/24e882d4-2140-4c6c-b3ad-8051b192c953)
 
 
 ## Computational Time Benchmark
