@@ -42,7 +42,6 @@ n_theta = 100
 ![Figure_2](https://github.com/user-attachments/assets/e1824c56-e181-4dfa-9645-5f4d7fb8345a)
 
 ## Discretization Error
-![Screenshot_1106](https://github.com/user-attachments/assets/29a51628-150f-4781-bbb0-a24ae7e6c59d)
 (This thing run for 2 hours+, will improve it soon)
 
 ## Acknowledgement
