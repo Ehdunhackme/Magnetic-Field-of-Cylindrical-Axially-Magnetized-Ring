@@ -14,6 +14,7 @@ Final Time Complexity (Determined using nested loops):
 ```math
 \text{Time Complexity} = O\left(n_x \times n_y \times n_{rings} \times n_{theta}\right)
 ```
+(time complexity grows linearly with the number of grid points and the discretization parameters, planned to optimize it by adding parallel processing or analytical approximation)
 
 ## Methodology
 
