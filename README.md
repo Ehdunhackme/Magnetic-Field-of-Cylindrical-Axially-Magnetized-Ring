@@ -24,7 +24,7 @@ The magnetic field is computed using a brute-force approach, iterating over a gr
 # The higher the value, the longer the computational time
 M = 1.0  # Magnetization (assumed uniform along z-axis)
 R1 = 0.5  # Inner radius of the ring
-R2 = 2  # Outer radius of the ring
+R2 = 1  # Outer radius of the ring
 h = 0.1   # Height of the ring
 n_rings = 100
 n_theta = 100
