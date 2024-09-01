@@ -9,7 +9,7 @@ Biot-Savart law:
 \mathbf{dB} = \frac{\mu_0}{4\pi} \frac{\mathbf{dI} \times \mathbf{r}}{|\mathbf{r}|^3}
 ```
 
-Final Time Complexity: 
+Final Time Complexity (Determined using nested loops): 
 
 ```math
 \text{Time Complexity} = O\left(n_x \times n_y \times n_{rings} \times n_{theta}\right)
