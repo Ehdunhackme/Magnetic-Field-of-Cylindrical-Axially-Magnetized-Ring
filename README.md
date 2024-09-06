@@ -3,12 +3,6 @@
 
 This project simulates and visualizes the magnetic field produced by a cylindrical magnetic ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field and includes both vector field visualization and a field strength heatmap. This is an early beta version of the simulation. As such, the code might contain errors or inaccuracies. Feedback and contributions are welcome to improve its accuracy and functionality. 
 
-Biot-Savart law:
-
-```math
-\mathbf{dB} = \frac{\mu_0}{4\pi} \frac{\mathbf{dI} \times \mathbf{r}}{|\mathbf{r}|^3}
-```
-
 Final Time Complexity (Determined using nested loops): 
 
 ```math
@@ -25,7 +19,7 @@ The magnetic field is computed using a brute-force approach, iterating over a gr
 ## Changable Parameters 
 ```
 # The higher the value, the longer the computational time
-M = 1.0  # Magnetization (assumed uniform along z-axis)
+M = 1.0  # Magnetization (assumed uniform along the z-axis)
 R1 = 0.5  # Inner radius of the ring
 R2 = 1  # Outer radius of the ring
 h = 0.1   # Height of the ring
@@ -34,13 +28,13 @@ n_theta = 100
 ```
 
 ## Vector Field Visualization
-![Figure_1](https://github.com/user-attachments/assets/5874ded3-4669-4733-9a7f-8561535f91be)
-![Figure_11](https://github.com/user-attachments/assets/24e882d4-2140-4c6c-b3ad-8051b192c953)
+![Figure_111](https://github.com/user-attachments/assets/887b2b05-987b-4517-bdbe-ca651d5bb9d3)
+![Figure_dawdad1](https://github.com/user-attachments/assets/b22f4abf-efed-4924-add3-0e6b237a86a4)
+
 
 
 ## Computational Time Benchmark
 ![image](https://github.com/user-attachments/assets/a8ee7d75-2c74-40c0-ac6e-efbf1cd256cf)
-(This thing run till out of memory, will improve it soon)
 
 ## Discretization Error
 (This thing run for 2 hours+, will improve it soon)
