@@ -19,6 +19,7 @@ n_theta = 100
 ```
 
 ## Vector Field Visualization
+![Figure_111](https://github.com/user-attachments/assets/86f40ff1-9bd9-4c13-817d-594c54795bb8)
 ![Figure_dawdad1](https://github.com/user-attachments/assets/b22f4abf-efed-4924-add3-0e6b237a86a4)
 
 ## Radial Profile 
