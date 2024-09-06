@@ -19,8 +19,15 @@ n_theta = 100
 ```
 
 ## Vector Field Visualization
-![Figure_111](https://github.com/user-attachments/assets/887b2b05-987b-4517-bdbe-ca651d5bb9d3)
 ![Figure_dawdad1](https://github.com/user-attachments/assets/b22f4abf-efed-4924-add3-0e6b237a86a4)
+
+## Field Gradient Plot
+![Figure_1dd](https://github.com/user-attachments/assets/7392bebc-508c-4903-85db-627c5d8d0384)
+
+## Radial Profile 
+![Figure_1d](https://github.com/user-attachments/assets/2b290242-c308-4749-8b7a-924011364ad1)
+
+
 
 ## Acknowledgement
 Inspired by Luyu-wu project :)))
