@@ -19,11 +19,10 @@ n_theta = 100
 ```
 
 ## Vector Field Visualization
-![Figure_111](https://github.com/user-attachments/assets/86f40ff1-9bd9-4c13-817d-594c54795bb8)
 ![Figure_dawdad1](https://github.com/user-attachments/assets/b22f4abf-efed-4924-add3-0e6b237a86a4)
 
-## Radial Profile 
-![Figure_1d](https://github.com/user-attachments/assets/2b290242-c308-4749-8b7a-924011364ad1)
+## Computational Time Benchmark 
+![d6ea07ff-2aa0-441a-8c27-379f638f6a36](https://github.com/user-attachments/assets/d8d45c51-e8bf-4d83-a2af-955e7d343bee)
 
 
 
