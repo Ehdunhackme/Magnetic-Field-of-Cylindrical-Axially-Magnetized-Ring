@@ -5,7 +5,8 @@ This project simulates and visualizes the magnetic field produced by a cylindric
 
 ## Methodology
 
-The magnetic field is computed using a brute-force approach, iterating over a grid of points and summing the contributions from differential current elements on the ring. This method provides a straightforward but computationally intensive way to calculate the magnetic field.
+- The magnetic field is computed using a brute-force approach, iterating over a grid of points and summing the contributions from differential current elements on the ring. This method provides a straightforward but computationally intensive way to calculate the magnetic field.
+- The Lyapunov heatmap provides a detailed visualization of the system's sensitivity to small perturbations by calculating the Lyapunov exponent at each point in the magnetic field. Higher Lyapunov exponents (brighter areas on the heatmap) indicate regions where small changes in the initial position cause rapid divergence in the particle's trajectory or magnetic field values, signalling chaotic or unstable behaviour. In contrast, lower Lyapunov exponents (darker areas) represent stable regions where small perturbations result in minimal changes, reflecting predictable, regular dynamics.
 
 ## Changable Parameters 
 ```
@@ -21,9 +22,11 @@ n_theta = 100
 ## Vector Field Visualization
 ![Figure_dawdad1](https://github.com/user-attachments/assets/b22f4abf-efed-4924-add3-0e6b237a86a4)
 
+## Lyapunuv Exponent Heatmap
+![heatmap](https://github.com/user-attachments/assets/7aae7168-a2e1-46ee-942a-2ca326f68f4f)
+
 ## Computational Time Benchmark 
 ![d6ea07ff-2aa0-441a-8c27-379f638f6a36](https://github.com/user-attachments/assets/d8d45c51-e8bf-4d83-a2af-955e7d343bee)
-
 
 
 ## Acknowledgement
