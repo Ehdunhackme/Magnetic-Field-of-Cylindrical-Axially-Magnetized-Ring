@@ -13,7 +13,7 @@ This project simulates and visualizes the magnetic field produced by a cylindric
 ![133333](https://github.com/user-attachments/assets/21b43f9d-30ee-4b1a-b133-a3c58acc1c72)
 
 ## Lyapunov Exponent Heatmap
-![heatmap](https://github.com/user-attachments/assets/7aae7168-a2e1-46ee-942a-2ca326f68f4f)
+![heatmap](https://github.com/user-attachments/assets/5e1de61e-bd20-4f3f-b580-8218b7a10453)
 
 ## MCMC Corner Plot
 ![mcmc dd](https://github.com/user-attachments/assets/0a39224a-2753-4854-b1b2-8d54c0fca85d)
