@@ -20,7 +20,7 @@ n_theta = 100
 ```
 
 ## Vector Field Visualization
-![Figure_dawdad1](https://github.com/user-attachments/assets/b22f4abf-efed-4924-add3-0e6b237a86a4)
+![133333](https://github.com/user-attachments/assets/21b43f9d-30ee-4b1a-b133-a3c58acc1c72)
 
 ## Lyapunov Exponent Heatmap
 ![heatmap](https://github.com/user-attachments/assets/7aae7168-a2e1-46ee-942a-2ca326f68f4f)
