@@ -1,7 +1,7 @@
 # Magnetic Field of Cylindrical Magnetic Ring
 ## Project Description
 
-This project simulates and visualizes the magnetic field produced by a cylindrical magnetic ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field and includes both vector field visualization and a field strength heatmap as well as a Lyapunov Exponent heatmap and MCMC corner plot. This is an early beta version of the simulation. As such, the code might contain errors or inaccuracies. Feedback and contributions are welcome to improve its accuracy and functionality. 
+This project simulates and visualizes the magnetic field produced by a cylindrical magnetic ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field. It includes both vector field visualization and a field strength heatmap as well as a Lyapunov Exponent heatmap and MCMC corner plot. Feedback and contributions are welcome to improve its accuracy and functionality. 
 
 ## Methodology
 
