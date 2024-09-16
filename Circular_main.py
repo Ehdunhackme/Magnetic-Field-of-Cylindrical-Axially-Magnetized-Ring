@@ -7,9 +7,9 @@ mu_0 = 4 * np.pi * 1e-7  # Permeability of free space
 M = 9.0  # Magnetization (assumed uniform along z-axis)
 R1 = 1  # Inner radius of the ring
 R2 = 0.8  # Outer radius of the ring
-h = 120   # Height of the ring
+h = 100   # Height of the ring
 n_rings = 100
-n_theta = 300
+n_theta = 500
 dtheta = 2 * np.pi / n_theta  # Small increment of the angle
 const = mu_0 / (4 * np.pi)
 
@@ -71,27 +71,18 @@ def calculate_magnetic_field(X, Y, Bx, By, B_mag, x_primes, y_primes, z_diff_top
 calculate_magnetic_field(X, Y, Bx, By, B_mag, x_primes, y_primes, z_diff_top, z_diff_bottom, dI_top, dI_bottom, const)
 
 # Plot the magnetic field vectors and field strength
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(12, 10))
 
-# Plot the magnetic field vectors
-plt.subplot(1, 2, 1)
-plt.quiver(X, Y, Bx, By, scale=1e-7, pivot='middle', color='k')
-plt.title('Magnetic Field Vectors (x-y plane)')
-plt.xlabel('x (m)')
-plt.ylabel('y (m)')
-
-# Plot the field magnitude with a color map
-plt.subplot(1, 2, 2)
-plt.imshow(B_mag, extent=(x_values.min(), x_values.max(), y_values.min(), y_values.max()), origin='lower', aspect='auto', cmap='viridis')
+# Plot the magnetic field vectors, using B_mag for the color
+plt.quiver(X, Y, Bx, By, B_mag, scale=1e-7, pivot='middle', cmap='viridis')
 plt.colorbar(label='Magnetic Field Strength (T)')
-plt.title('Magnetic Field Strength')
+plt.title('Magnetic Field Vectors Plane')
 plt.xlabel('x (m)')
 plt.ylabel('y (m)')
 
 # Plot the ring for reference
 ring_x = radii[:, np.newaxis] * cos_theta
 ring_y = radii[:, np.newaxis] * sin_theta
-plt.subplot(1, 2, 1)
-plt.plot(ring_x, ring_y, 'r-')
-plt.legend()
+plt.plot(ring_x, ring_y, 'k-')
+
 plt.show()
