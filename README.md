@@ -10,7 +10,7 @@ This project simulates and visualizes the magnetic field produced by a cylindric
 - Markov chain Monte Carlo Plot is used to estimate the parameters of a physical system involving magnetic fields and Lyapunov exponents, fitting a model to observational data to infer the best-fit values and their uncertainties.
 
 ## Vector Field Visualization
-![magnet](https://github.com/user-attachments/assets/3ef61d74-269f-4232-b30e-ed943e8ed94e)
+![yee](https://github.com/user-attachments/assets/d46c791b-ff2f-42f9-b385-8f35f7633a50)
 
 ## Lyapunov Exponent Heatmap
 ![heatmap](https://github.com/user-attachments/assets/5e1de61e-bd20-4f3f-b580-8218b7a10453)
