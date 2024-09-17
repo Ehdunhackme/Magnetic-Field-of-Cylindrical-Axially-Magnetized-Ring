@@ -1,19 +1,19 @@
 # Magnetic Field of Cylindrical Axially Magnetized Ring
 ## Project Description
 
-This project simulates and visualizes the magnetic field produced by a cylindrical axially magnetized ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field. It includes both vector field visualization and a field strength heatmap as well as a Lyapunov Exponent heatmap and MCMC corner plot. Feedback and contributions are welcome to improve its accuracy and functionality. 
+This project simulates and visualizes the magnetic field produced by a cylindrical axially magnetized ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field. It includes both vector field visualization and a field strength heatmap as well as a Field Perturbation Sensitivity Heatmap and MCMC corner plot. Feedback and contributions are welcome to improve its accuracy and functionality. 
 
 ## Methodology
 
 - The magnetic field is computed using a brute-force approach, iterating over a grid of points and summing the contributions from differential current elements on the ring. This method provides a straightforward but computationally intensive way to calculate the magnetic field.
-- The Lyapunov heatmap provides a detailed visualization of the system's sensitivity to small perturbations by calculating the Lyapunov exponent at each point in the magnetic field.
+- The Field Perturbation Sensitivity Heatmap provides a detailed visualization of the field changes for a small spatial perturbation, which could indicate how chaotic or stable the spatial magnetic field is in certain regions.
 - Markov chain Monte Carlo Plot is used to estimate the parameters of a physical system involving magnetic fields and Lyapunov exponents, fitting a model to estimated data to infer the best-fit values and their uncertainties.
 
 ## Vector Field Visualization
 ![yee](https://github.com/user-attachments/assets/d46c791b-ff2f-42f9-b385-8f35f7633a50)
 
-## Lyapunov Exponent Heatmap
-![heatmap](https://github.com/user-attachments/assets/5e1de61e-bd20-4f3f-b580-8218b7a10453)
+## Field Perturbation Sensitivity Heatmap
+![heat](https://github.com/user-attachments/assets/042efb1a-76aa-4312-8d36-bcf335230099)
 
 ## MCMC Corner Plot
 ![mcccccc](https://github.com/user-attachments/assets/8182a861-7b0d-454a-8fad-77b58c1adcb9)
