@@ -3,7 +3,7 @@
 
 This project simulates and visualizes the magnetic field produced by a cylindrical axially magnetized ring in the x-y plane. The simulation employs the Biot-Savart law to calculate the magnetic field. It includes both vector field visualization and a field strength heatmap as well as a Field Perturbation Sensitivity Heatmap and MCMC corner plot. Feedback and contributions are welcome to improve its accuracy and functionality. <br> 
 
-![image](https://github.com/user-attachments/assets/6da84289-c633-4ffb-8587-4645cb9e166b)
+![image](https://github.com/user-attachments/assets/b80cc101-94d7-43c7-a401-d65e122c2443)
 
 
 ## Methodology
