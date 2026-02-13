@@ -12,7 +12,7 @@ This project simulates and visualizes the magnetic field produced by a cylindric
 - The Field Perturbation Sensitivity Heatmap provides a detailed visualization of the field changes for a small spatial perturbation, which could indicate how chaotic or stable the spatial magnetic field is in certain regions.
 
 ## Vector Field Visualization
-https://github.com/user-attachments/assets/d46c791b-ff2f-42f9-b385-8f35f7633a50
+![vector](https://github.com/user-attachments/assets/d46c791b-ff2f-42f9-b385-8f35f7633a50)
 
 ## Field Perturbation Sensitivity Heatmap
 ![heat](https://github.com/user-attachments/assets/042efb1a-76aa-4312-8d36-bcf335230099)
